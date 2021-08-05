@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SecondFragment">
+
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SecondFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+       <ImageView
+           android:id="@+id/img"
+           android:layout_width="225dp"
+           android:layout_height="183dp"
+           android:layout_alignParentStart="true"
+           android:layout_alignParentLeft="true"
+           android:layout_alignParentTop="true"
+           android:layout_alignParentEnd="true"
+           android:layout_alignParentRight="true"
+           android:layout_marginStart="93dp"
+           android:layout_marginLeft="93dp"
+           android:layout_marginTop="45dp"
+           android:layout_marginEnd="93dp"
+           android:layout_marginRight="93dp"
+           android:src="@drawable/mpesalogo" />
+
+       <EditText
+           android:backgroundTint="@color/black"
+           android:textColor="@color/black"
+           android:drawablePadding="10dp"
+           android:id="@+id/surname"
+           android:layout_width="225dp"
+           android:layout_height="wrap_content"
+           android:layout_below="@+id/name"
+           android:layout_alignParentStart="true"
+           android:layout_alignParentLeft="true"
+           android:layout_alignParentEnd="true"
+           android:layout_alignParentRight="true"
+           android:layout_marginStart="93dp"
+           android:layout_marginLeft="93dp"
+           android:layout_marginTop="20dp"
+           android:layout_marginEnd="93dp"
+           android:layout_marginRight="93dp"
+           android:drawableLeft="@drawable/ic_baseline_person_24"
+           android:ems="10"
+           android:hint="Surname"
+           android:inputType="textPersonName"
+           android:textColorHint="@color/black" />
+
+       <EditText
+           android:backgroundTint="@color/black"
+           android:textColor="@color/black"
+           android:drawablePadding="10dp"
+           android:id="@+id/idnumber"
+           android:layout_width="225dp"
+           android:layout_height="wrap_content"
+           android:layout_below="@+id/surname"
+           android:layout_alignParentStart="true"
+           android:layout_alignParentLeft="true"
+           android:layout_alignParentEnd="true"
+           android:layout_alignParentRight="true"
+           android:layout_marginStart="93dp"
+           android:layout_marginLeft="93dp"
+           android:layout_marginTop="20dp"
+           android:layout_marginEnd="93dp"
+           android:layout_marginRight="93dp"
+           android:drawableLeft="@drawable/ic_baseline_perm_identity_24"
+           android:ems="10"
+           android:hint="Id Number"
+           android:inputType="number"
+           android:textColorHint="@color/black" />
+
+    <EditText
+        android:backgroundTint="@color/black"
+        android:textColor="@color/black"
+        android:drawablePadding="10dp"
+        android:id="@+id/name"
+        android:layout_width="225dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/img"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="93dp"
+        android:layout_marginLeft="93dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="93dp"
+        android:layout_marginRight="93dp"
+        android:drawableLeft="@drawable/ic_baseline_person_24"
+        android:ems="10"
+        android:hint="Name"
+        android:inputType="textPersonName"
+        android:textColorHint="@color/black" />
+
+    <EditText
+        android:backgroundTint="@color/black"
+        android:textColor="@color/black"
+        android:drawablePadding="10dp"
+        android:id="@+id/Phone"
+        android:layout_width="225dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/idnumber"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="93dp"
+        android:layout_marginLeft="93dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="93dp"
+        android:layout_marginRight="93dp"
+        android:drawableLeft="@drawable/ic_baseline_phone_24"
+        android:ems="10"
+        android:hint="Phone"
+        android:inputType="phone"
+        android:textColorHint="@color/black" />
+
+       <EditText
+           android:backgroundTint="@color/black"
+           android:textColor="@color/black"
+           android:drawablePadding="10dp"
+           android:id="@+id/Pin"
+           android:layout_width="225dp"
+           android:layout_height="wrap_content"
+           android:layout_below="@+id/Phone"
+           android:layout_alignParentStart="true"
+           android:layout_alignParentLeft="true"
+           android:layout_alignParentEnd="true"
+           android:layout_alignParentRight="true"
+           android:layout_marginStart="93dp"
+           android:layout_marginLeft="93dp"
+           android:layout_marginTop="20dp"
+           android:layout_marginEnd="93dp"
+           android:layout_marginRight="93dp"
+           android:drawableLeft="@drawable/ic_baseline_lock_24"
+           android:ems="10"
+           android:hint="Pin"
+           android:inputType="numberPassword"
+           android:textColorHint="@color/black" />
+
+    <Button
+        android:textColor="@color/black"
+        android:id="@+id/registerbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="63dp"
+        android:layout_below="@+id/Pin"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="93dp"
+        android:layout_marginLeft="93dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="93dp"
+        android:layout_marginRight="93dp"
+        android:text="Register"
+        android:layout_marginBottom="112dp"
+        />
+
+
+</RelativeLayout>
+</ScrollView>

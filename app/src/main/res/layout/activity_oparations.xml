@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Oparations">
+
+
+    <ImageView
+        android:scaleType="centerCrop"
+        android:id="@+id/imageView"
+        android:layout_width="107dp"
+        android:layout_height="107dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/icon"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="20dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_toEndOf="@+id/imageView"
+        android:text="Name:"
+        android:textColor="@color/black"
+        android:layout_marginLeft="20dp"
+        android:layout_toRightOf="@+id/imageView" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_toEndOf="@+id/imageView"
+        android:text="Surname:"
+        android:textColor="@color/black"
+        android:layout_marginLeft="20dp"
+        android:layout_toRightOf="@+id/imageView" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView2"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_toEndOf="@+id/imageView"
+        android:text="Number:"
+        android:textColor="@color/black"
+        android:layout_marginLeft="20dp"
+        android:layout_toRightOf="@+id/imageView" />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="49dp"
+        android:layout_marginTop="20dp"
+        android:layout_toEndOf="@+id/textView"
+        android:text="TextView"
+        android:textColor="@color/black"
+        android:layout_marginLeft="49dp"
+        android:layout_toRightOf="@+id/textView" />
+
+    <TextView
+        android:id="@+id/surname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/name"
+        android:layout_marginStart="49dp"
+        android:layout_marginTop="10dp"
+        android:layout_toEndOf="@+id/textView2"
+        android:text="TextView"
+        android:textColor="@color/black"
+        android:layout_marginLeft="49dp"
+        android:layout_toRightOf="@+id/textView2" />
+
+    <TextView
+        android:id="@+id/usernumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/surname"
+        android:layout_marginStart="49dp"
+        android:layout_marginTop="10dp"
+        android:layout_toEndOf="@+id/textView3"
+        android:text="TextView"
+        android:textColor="@color/black"
+        android:layout_marginLeft="49dp"
+        android:layout_toRightOf="@+id/textView3" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView3"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="11dp"
+        android:layout_toEndOf="@+id/imageView"
+        android:text="Balance:"
+        android:textColor="@color/black"
+        android:layout_marginLeft="20dp"
+        android:layout_toRightOf="@+id/imageView" />
+
+    <TextView
+        android:id="@+id/balance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/usernumber"
+        android:layout_marginStart="6dp"
+        android:layout_marginLeft="6dp"
+        android:layout_marginTop="10dp"
+        android:layout_toEndOf="@+id/textView4"
+        android:layout_toRightOf="@+id/textView4"
+        android:text="TextView"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:textColor="@color/black"
+        android:id="@+id/textView9"
+        android:textSize="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="89dp"
+        android:layout_marginTop="129dp"
+        android:text="SEND MONEY"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="89dp" />
+
+    <EditText
+        android:backgroundTint="@color/black"
+        android:textColorHint="@color/gray"
+        android:textColor="@color/black"
+        android:id="@+id/recNumber"
+        android:layout_width="233dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView9"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="89dp"
+        android:layout_marginTop="9dp"
+        android:layout_marginEnd="89dp"
+        android:ems="10"
+        android:drawableLeft="@drawable/ic_baseline_phone_24"
+        android:hint="Receipient Number"
+        android:drawablePadding="10dp"
+        android:inputType="phone"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true" />
+
+    <EditText
+        android:backgroundTint="@color/black"
+        android:textColorHint="@color/gray"
+        android:textColor="@color/black"
+        android:id="@+id/amount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/recNumber"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="89dp"
+        android:layout_marginTop="9dp"
+        android:layout_marginEnd="90dp"
+        android:ems="10"
+        android:hint="Amount To Send"
+        android:drawablePadding="10dp"
+        android:drawableLeft="@drawable/ic_baseline_money_24"
+        android:inputType="numberDecimal"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="89dp"
+        android:layout_marginRight="90dp" />
+
+    <EditText
+        android:backgroundTint="@color/black"
+        android:textColorHint="@color/gray"
+        android:textColor="@color/black"
+        android:id="@+id/reference"
+        android:layout_width="232dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/amount"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="89dp"
+        android:layout_marginTop="9dp"
+        android:layout_marginEnd="90dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:drawableLeft="@drawable/ic_baseline_person_24"
+        android:drawablePadding="10dp"
+        android:hint="Reference Name"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="89dp"
+        android:layout_marginRight="90dp" />
+
+    <Button
+        android:id="@+id/send"
+        android:layout_width="232dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/reference"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="89dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="90dp"
+        android:text="Send Money"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="89dp"
+        android:layout_marginRight="90dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/usernumber"
+        android:layout_marginStart="49dp"
+        android:layout_marginLeft="49dp"
+        android:layout_marginTop="10dp"
+        android:layout_toEndOf="@+id/textView7"
+        android:layout_toRightOf="@+id/textView7"
+        android:text="M"
+        android:textColor="@color/black" />
+</RelativeLayout>
